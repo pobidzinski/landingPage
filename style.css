@@ -21,19 +21,24 @@ body {
 
 ul {
     text-align: right;
+    display: flex;
+    float: right;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-link {
+    display: inline;
+    padding: 50px;
 }
 
 #nav-bar {
     height: 50px;
 }
 
-.nav-link {
-    list-style: none;
-    display: inline;
-    padding: 50px;
-}
-
-.nav-link a {
+a {
     color: black;
     text-decoration: none;
 }
