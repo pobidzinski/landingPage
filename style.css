@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+}
+
+#header {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    padding-top: 15px;
+}
+
+#header-img {
+    height: 50px;
+    float: left;
+}
+
+ul {
+    text-align: right;
+}
+
+#nav-bar {
+    height: 50px;
+}
+
+#nav-link {
+    list-style: none;
+    display: inline;
+    padding: 50px;
+}
+
+#nav-link a {
+    color: black;
+    text-decoration: none;
+}
+
+#landing-image {
+    width: 100%;
+}
+
+/* Video part */
+
+.flex-grid {
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+}
+
+.col {
+    flex: 1;
+}
+
+@media (max-width: 600px) {
+    .flex-grid {
+        display: block;
+    }
+    .finger {
+        display: none;
+    }
+}
+
+.finger {
+    width: 20%;
+    height: auto;
+}
+
+/* Contact Page */
+
+#contact {
+    height: auto; 
+    margin: 0 auto; 
+}
+
+#contact h1 {
+    margin-bottom: 5px;
+}
+
+form {
+    width: 50%; 
+    margin: 50px auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#location {
+    height: auto; 
+    margin: 0 auto; 
+}
+
+#map {
+    width: 50%; 
+    margin: 50px auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#map img {
+    width: 80%;
+    height: auto;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
