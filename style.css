@@ -27,13 +27,13 @@ ul {
     height: 50px;
 }
 
-#nav-link {
+.nav-link {
     list-style: none;
     display: inline;
     padding: 50px;
 }
 
-#nav-link a {
+.nav-link a {
     color: black;
     text-decoration: none;
 }
